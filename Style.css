@@ -1,0 +1,77 @@
+*{
+	font-family: 'inter';
+}
+body{
+	background-color: #E8E6DF;
+}
+.TemplateLogin{
+	height: 555px;
+	width: 320px;
+	background-color: white;
+	margin: 50px auto;
+  display: table;
+  clear: both;
+}
+.TemplateLogin p{
+	font-size: 27px;
+	text-align: center;
+}
+.Logo{
+	height: 125px;
+	width: 125px;
+	background-color: #C817F4;
+	border-radius: 65px;
+	margin: 60px auto 30px;
+	text-align: center;
+	line-height: 123px;
+	font-size: 27px;
+}
+.inputan{
+	margin-top: 45px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inputan #username, .inputan #password{
+	border: 1px solid #B7B3B8;
+	border-radius: 0;
+}
+.inputan #username{
+	width: 250px;
+	height: 35px;
+}
+.inputan #password{
+	width: 253px;
+	height: 37.5px;
+}
+.inputan #username:focus, .inputan #password1:focus{
+  outline: none;
+}
+#Login{
+	margin-top: 155px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 255px;
+    height: 39px;
+    border-radius: 35px;
+    background: linear-gradient(to right, #FF67F0 , #C817F4);
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.Ujung{
+	margin-left: 1%;
+	margin-top: 90%;
+}
+.Ujung #Lupa{
+	margin-left: 52.5%;
+}
+.Ujung a{
+	color: #8D868D;
+	text-decoration: none;
+	font-size: 12px;
+}

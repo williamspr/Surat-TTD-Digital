@@ -1,0 +1,227 @@
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+		font-family: 'inter';
+	}
+	body{
+		background-color: #E8E6DF;
+	}
+	.NamaPerusahaan{
+		background-color: #437B50;
+		color: white;
+		text-align: center;
+		font-size: 14px;
+		font-weight: bold;
+		width: 20%;
+		height: 50px;
+		line-height: 45px;
+	}
+	.MainMenu{
+		background-color: white;
+		padding: 22px 0px 22px 15px;
+		width: 18.8%;
+		font-size: 14px;
+		font-weight: bold;
+		height: 85.6%;
+	}
+	.MainMenu ul{
+		margin-top: 20px;
+	}
+	.MainMenu ul li{
+		position: relative;
+		list-style-type: none;
+		margin-bottom: 18px;
+	}
+	.MainMenu ul li img{
+		height: 20px; 
+		width: 20px;
+		margin-right: 10px;
+	}
+	.MainMenu ul li span{
+		font-weight: normal;
+		position: absolute;
+        top: 0.5px;
+	}
+	.profile{
+		background-color: #437B50;
+		height: 50px;
+		width: 80%;
+		margin-left: 272px;	
+		margin-top: -651px;
+		display: table;
+        clear: both;	
+	}
+	.ReOrder{
+		margin-top: 17px;
+		margin-left: 15px;
+	}
+	.ReOrder div{
+		background-color: white;
+		width: 1.7%;
+		height: 2px;
+		margin-bottom: 2px;
+	}
+	.profile img{
+		height: 27px;
+		width: 27px;
+		margin-left: 89%;
+		margin-top: -21.5px;
+	}
+	.profile p{
+		margin-left: 93%;
+		margin-top: -23px;
+		font-size: 14px;
+		color: white;
+		font-weight: bold;
+	}
+	.SuratMasuk{
+		margin-left: 330px;
+		margin-top: 40px;
+	}
+	.Hijau{
+		background-color: rgba(18, 171, 15, 0.735);
+		width: 380px;
+		height: 160px;
+	}
+	.Hijau img{
+		height: 35px;
+		width: 33px;
+		margin-top: 25px;
+		margin-left: 173.5px;
+	}
+	.Hijau p{
+		font-size: 21px;
+		color: white;
+		font-weight: 600;
+		text-align: center;
+		line-height: 90px;
+	}
+	.Putih{
+		background-color: white;
+		width: 380px;
+		height: 60px;
+		display: flex;
+        clear: both;
+	}
+	.Putih p{
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	.Putih button{
+		background-color: rgba(18, 171, 15, 0.735);
+		border: none;
+		color: white;
+		height: 30px;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 55%;
+		width: 100px;
+	}
+	.SuratKeluar{
+		margin-left: 920px;
+		margin-top: -248px;
+	}
+	.Orange{
+		margin-top: 30px;
+		background-color: #F95E1C;
+		width: 380px;
+		height: 160px;
+	}
+	.Orange p{
+		font-size: 21px;
+		color: white;
+		font-weight: 600;
+		text-align: center;
+		line-height: 90px;
+	}
+	.Orange img{
+		height: 35px;
+		width: 33px;
+		margin-top: 25px;
+		margin-left: 173.5px;
+	}
+	.Keterangan{
+		background-color: #AFD2BB;
+		margin-top: 30px;
+		margin-left: 330px;
+		height: 60px;
+		width: 71%;
+		border: 1px solid #437B50;
+		border-radius: 10px;
+	}
+	.Keterangan p{
+		margin-top: 18.3px;
+		margin-left: 10px;
+	}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+	<title>Home</title>
+</head>
+<body>
+	<div class="sidebar">
+		<div class="NamaPerusahaan">
+			PT Cikarang Listrindo Tbk
+		</div>
+		<div class="MainMenu">
+			MAIN MENU
+			<ul>
+				<li><img src="home.png"><span><a>Home</a></span></li>
+				<li><img src="setting.png"><span>Master Data</span><a href="#"><img src="down-arrow.png" style="transform: rotate(-90deg); margin-left: 193px;"></a></li>
+				<li><img src="writing.png"><span>Persuratan</span><a href="#"><img src="down-arrow.png" style="transform: rotate(-90deg); margin-left: 193px;"></a></li>
+				<li><img src="pie-chart.png"><span><a href="#" style="text-decoration: none; color: black; margin-left: 1px;">Laporan</a></span></li>
+
+				TAMBAHAN
+			    <li style="margin-top: 20px;"><img src="power-off.png"> <span>Log Out</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="Utama">
+		<div class="profile">
+			<div class="ReOrder">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<img src="user.png">
+			<p>Admin</p> 
+		</div>
+
+		<div class="SuratMasuk">
+			<div class="Hijau">
+				<img src="Screenshot (684).png">
+				<p>SURAT MASUK</p>
+			</div>
+			<div class="Putih">
+				<p>1 DATA</p>
+				<button>Selengkapnya</button>
+			</div>
+		</div>
+
+		<div class="SuratKeluar">
+			<div class="Orange">
+				<img src="Screenshot (685).png">
+				<p>SURAT KELUAR</p>
+			</div>
+			<div class="Putih">
+				<p>1 DATA</p>
+				<button style="background-color: #F95E1C;">Selengkapnya</button>
+			</div>
+		</div>
+
+		<div class="Keterangan">
+			<p>SELAMAT DATANG ADMIN</p>
+		</div>
+	</div>
+</body>
+</html>
